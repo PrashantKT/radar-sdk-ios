@@ -107,6 +107,8 @@
 				TargetAttributes = {
 					DD254A5B1E283A4400B69ECD = {
 						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = CA6FSPPZ5V;
+						LastSwiftMigration = 1020;
 						ProvisioningStyle = Manual;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
@@ -121,6 +123,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -254,15 +257,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CA6FSPPZ5V;
 				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../RadarSDK/**";
 				HEADER_SEARCH_PATHS = "$(SRCROOT)/../RadarSDK/**";
 				INFOPLIST_FILE = "$(SRCROOT)/RadarExampleSwift/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = com.onradar.exampleswift;
+				PRODUCT_BUNDLE_IDENTIFIER = com.plutomen.onradar.exampleswift;
 				PRODUCT_NAME = RadarExampleSwift;
+				PROVISIONING_PROFILE_SPECIFIER = PlutomenGlobalDevelopment;
 				SWIFT_OBJC_BRIDGING_HEADER = RadarExampleSwift/ObjCBridge.h;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -270,15 +275,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CA6FSPPZ5V;
 				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../RadarSDK/**";
 				HEADER_SEARCH_PATHS = "$(SRCROOT)/../RadarSDK/**";
 				INFOPLIST_FILE = "$(SRCROOT)/RadarExampleSwift/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = com.onradar.exampleswift;
+				PRODUCT_BUNDLE_IDENTIFIER = com.plutomen.onradar.exampleswift;
 				PRODUCT_NAME = RadarExampleSwift;
+				PROVISIONING_PROFILE_SPECIFIER = PlutomenGlobalDevelopment;
 				SWIFT_OBJC_BRIDGING_HEADER = RadarExampleSwift/ObjCBridge.h;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
